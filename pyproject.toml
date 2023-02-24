@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "neurobooth"
-version = "0.1.0"
+version = "0.1.1"
 description = "Neurobooth library for landmark detection of face features, face mesh, pose, etc.
 authors = ["Andrew Chang"]
 license = "BSD-3-Clause"
