@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "neurobooth"
 version = "0.1.0"
-description = "A python library and framework for fast neural network computations."
+description = "Neurobooth library for landmark detection of face features, face mesh, pose, etc.
 authors = ["Andrew Chang"]
 license = "BSD-3-Clause"
 readme = "README.md"
