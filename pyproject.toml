@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "neurobooth"
+version = "0.1.0"
+description = "A python library and framework for fast neural network computations."
+authors = ["Andrew Chang"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://github.com/neurobooth/landmark-detection"
+repository = "https://github.com/neurobooth/landmark-detection"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.0.0"
+jupyter = "^1.0.0"
+jupyterlab = "^2.2.9"
+wget = "^3.2"
+matplotlib = "^3.3.3"
+opencv-python = "^4.7.0"
+h5io = "^0.1.7"
+moviepy = "^1.0.3"
+mediapipe = "0.8.9.1"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.4"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
